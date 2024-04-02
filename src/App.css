@@ -1,0 +1,33 @@
+#root {
+  /* margin: 0 auto; */
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+aside {
+  position: fixed;
+  top: 49px;
+  right: 0;
+  width: 50%;
+  height: 100%;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+section,
+form {
+  width: 50%;
+}
